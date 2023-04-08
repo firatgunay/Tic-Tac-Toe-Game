@@ -58,7 +58,6 @@ int game_over() {
     if (board[0][2] == board[1][1] && board[1][1] == board[2][0] && board[0][2] != '-') {
         return 1;
     }
-    // tahta doluysa oyun biter
     for (i = 0; i < 3; i++) {
         for (j = 0; j < 3; j++) {
             if (board[i][j] == '-') {
